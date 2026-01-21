@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirali Radadiya | MERN Stack Developer</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Plen Background with Gradient Waves -->
+    <div class="plen-bg">
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+    </div>
+    
+    <!-- Bubble Background Animation -->
+    <div class="bubble-bg" id="bubbleBg"></div>
+    
+    <!-- Smoke Effect -->
+    <div class="smoke-container" id="smokeContainer"></div>
+    
+    <!-- Different Shape Animations -->
+    <div class="shape-container">
+        <div class="floating-shape shape-triangle"></div>
+        <div class="floating-shape shape-hexagon"></div>
+        <div class="floating-shape shape-decagon"></div>
+        <div class="floating-shape shape-diamond"></div>
+    </div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">N.R.</a>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">MERN Stack Developer</div>
+                    <h1>Nirali <span>Radadiya</span></h1>
+                    <p>Passionate MERN Stack Developer with expertise in building modern, scalable web applications. 6 months of internship experience with focus on clean code and user-centric design.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i> Get in Touch
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <!-- Rotating Heptagon Border -->
+                        <div class="heptagon-border"></div>
+                        <div class="heptagon-border-inner"></div>
+                        
+                        <!-- Heptagon Profile Image -->
+                        <img src="me1.jpeg" 
+                             alt="Nirali Radadiya" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content">
+                <div class="about-main animate-on-scroll">
+                    <h3 style="color: var(--light); margin-bottom: 24px; font-size: 1.5rem;">My Journey in Tech</h3>
+                    <p style="line-height: 1.7; margin-bottom: 20px;">Hello! I'm Nirali Radadiya, a passionate MERN Stack Developer with a strong foundation in full-stack web development. My journey into technology began during my B.Sc. in Information Technology, where I discovered my love for creating digital solutions.</p>
+                    <p style="line-height: 1.7; margin-bottom: 30px;">What excites me most about web development is the perfect blend of creativity and logic. I enjoy transforming complex problems into elegant, user-friendly solutions that make a real impact.</p>
+                    
+                    <!-- Experience Timeline -->
+                    <div class="experience-timeline">
+                        <div class="experience-item">
+                            <div class="experience-title">MERN Stack Developer Intern</div>
+                            <div class="experience-company">MDIDM Infoway, Rajkot</div>
+                            <div class="experience-duration">6 Months Internship</div>
+                            <div class="experience-description">
+                                During my internship, I gained hands-on experience in full-stack development, working on real-world projects that enhanced my skills in both frontend and backend technologies. I contributed to building responsive web applications using the MERN stack, implemented RESTful APIs, and collaborated with teams using Agile methodologies.
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Education</h2>
+            <div class="education-grid">
+                <div class="card education-card animate-on-scroll animate-up">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <div class="edu-date">2021 - 2024</div>
+                        <p style="color: var(--text);">Harivandana College, Rajkot</p>
+                        <p style="color: var(--text); margin-top: 8px; font-size: 0.95rem;">Specialized in software development, web technologies, and database management systems</p>
+                    </div>
+                </div>
+                
+                <div class="card education-card animate-on-scroll animate-up">
+                    <div class="edu-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <div class="edu-date">2021 - 2022</div>
+                        <p style="color: var(--text);">Shree Kanya Vidyalay, Rajkot</p>
+                        <p style="color: var(--text); margin-top: 8px; font-size: 0.95rem;">Science Stream with Computer Science</p>
+                    </div>
+                </div>
+                
+                <div class="card education-card animate-on-scroll animate-up">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="edu-content">
+                        <h3>Secondary School Certificate (SSC)</h3>
+                        <div class="edu-date">2019 - 2020</div>
+                        <p style="color: var(--text);">Bhagyoday School, Jashapar</p>
+                        <p style="color: var(--text); margin-top: 8px; font-size: 0.95rem;">Strong foundation in mathematics and science</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Frontend Development -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-title">
+                        <i class="fas fa-layer-group category-icon"></i>
+                        Frontend Development
+                    </div>
+                    <div class="skills-row">
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-name">HTML5</div>
+                           
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-name">CSS3</div>
+                         
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-name">JavaScript</div>
+                           
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-name">React.js</div>
+                          
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-name">Bootstrap</div>
+                       
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="skill-name">Responsive Design</div>
+                          
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Development -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-title">
+                        <i class="fas fa-server category-icon"></i>
+                        Backend Development
+                    </div>
+                    <div class="skills-row">
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-name">Node.js</div>
+                           
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-name">Express.js</div>
+                         
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">MongoDB</div>
+                   
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="skill-name">RESTful APIs</div>
+                          
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="skill-name">PHP</div>
+                     
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">MySQL</div>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Others -->
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-title">
+                        <i class="fas fa-tools category-icon"></i>
+                        Tools & Others
+                    </div>
+                    <div class="skills-row">
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-name">Git</div>
+                            
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="skill-name">GitHub</div>
+                            
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fab fa-npm"></i>
+                            </div>
+                            <div class="skill-name">NPM</div>
+                        
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <div class="skill-name">Postman</div>
+                          
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <div class="skill-name">Command Line</div>
+                         
+                        </div>
+                        <div class="skill-item animate-on-scroll">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-name">VS Code</div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="card project-card animate-on-scroll animate-up">
+                    <div class="project-image">
+                        <img src="https://s3-alpha.figma.com/hub/file/479379372/7e6df39f-585d-4a9e-9bf3-4ef4c00f816b-cover.png" alt="E-commerce Platform">
+                        <div class="project-tags">
+                            <span class="tag">Bootstrap/Javascript</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 style="color: var(--light); margin-bottom: 16px;">Tic Toe Tac</h3>
+                        <p style="color: var(--text); line-height: 1.7;">A Tic Tac Toe game in JavaScript is a simple browser game where two players alternate placing X and O on a 3×3 grid. After each move, the game checks for a win (row, column, or diagonal) or a draw.</p>
+                        <div class="project-links">
+                            <a href="https://radadiyanirali682-alt.github.io/Tic-Tac-Toe/" class="btn btn-primary" style="padding: 12px 24px; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/radadiyanirali682-alt/" target="_blank" class="btn btn-secondary" style="padding: 12px 24px; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card animate-on-scroll animate-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80" alt="Task Management">
+                        <div class="project-tags">
+                            <span class="tag">React/node.js</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 style="color: var(--light); margin-bottom: 16px;">Diseptguard</h3>
+                        <p style="color: var(--text); line-height: 1.7;">React-based web application using APIs to manage and display hand sanitizer, hand spray, and leg spray hygiene products.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" style="padding: 12px 24px; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt"></i> View Demo
+                            </a>
+                            <a href="https://github.com/radadiyanirali682-alt/" target="_blank" class="btn btn-secondary" style="padding: 12px 24px; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card project-card animate-on-scroll animate-up">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80" alt="Social Media">
+                        <div class="project-tags">
+                            <span class="tag">MERN</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 style="color: var(--light); margin-bottom: 16px;">Community App API</h3>
+                        <p style="color: var(--text); line-height: 1.7;">Complete backend APIs for authentication, user management, and listing features using Node.js, Express, and MongoDB.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" style="padding: 12px 24px; font-size: 0.9rem;">
+                                <i class="fas fa-server"></i> API Docs
+                            </a>
+                            <a href="https://github.com/radadiyanirali682-alt/" target="_blank" class="btn btn-secondary" style="padding: 12px 24px; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="card contact-item animate-on-scroll animate-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--light); margin-bottom: 8px;">Email</h4>
+                            <p style="color: var(--text);">radadiyanirali682@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card contact-item animate-on-scroll animate-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--light); margin-bottom: 8px;">Phone</h4>
+                            <p style="color: var(--text);">+91 9316242621</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card contact-item animate-on-scroll animate-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--light); margin-bottom: 8px;">Location</h4>
+                            <p style="color: var(--text);">Rajkot, Gujarat, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card contact-item animate-on-scroll animate-left">
+                        <div class="contact-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--light); margin-bottom: 8px;">Open To</h4>
+                            <p style="color: var(--text);">Internship & Full-time Roles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card contact-form animate-on-scroll animate-right">
+                    <form id="contactForm">
+                        <div class="form-group animate-on-scroll">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group animate-on-scroll">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group animate-on-scroll">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group animate-on-scroll">
+                            <textarea class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3 style="color: var(--light); margin-bottom: 20px; font-size: 1.3rem;">Nirali Radadiya</h3>
+                    <p style="color: var(--text); line-height: 1.7;">MERN Stack Developer focused on building modern, scalable web applications with clean code and user-centric design.</p>
+                </div>
+                
+                <div>
+                    <h3 style="color: var(--light); margin-bottom: 20px; font-size: 1.3rem;">Navigation</h3>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+                        <li><a href="#home" style="color: var(--text); text-decoration: none; transition: color 0.3s ease;">Home</a></li>
+                        <li><a href="#about" style="color: var(--text); text-decoration: none; transition: color 0.3s ease;">About</a></li>
+                        <li><a href="#projects" style="color: var(--text); text-decoration: none; transition: color 0.3s ease;">Projects</a></li>
+                        <li><a href="#contact" style="color: var(--text); text-decoration: none; transition: color 0.3s ease;">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 style="color: var(--light); margin-bottom: 20px; font-size: 1.3rem;">Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/radadiyanirali682-alt/" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/radadiya-radadiya-nirali-833784398/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div style="margin-top: 24px;">
+                        <p style="color: var(--text); margin-bottom: 8px;"></p>
+                        <p style="color: var(--text);"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Nirali Radadiya. All rights reserved. Designed & Developed with MERN Stack</p>
+                <!-- <p style="margin-top: 8px; color: var(--text);">Designed & Developed with MERN Stack</p> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
